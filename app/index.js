@@ -11,11 +11,19 @@ import {
 const Home = () => {
   const router = useRouter();
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+    <SafeAreaView
+      style={{
+        flex: 1,
+        backgroundColor: COLORS.lightWhite,
+      }}
+    >
       <Stack.Screen
         options={{
-          headerStyle: { backgroundColor: COLORS.lightWhite },
+          headerStyle: {
+            backgroundColor: COLORS.lightWhite,
+          },
           headerShadowVisible: false,
+
           headerLeft: () => (
             <ScreenHeaderBtn iconUrl={icons.menu} dimension='60%' />
           ),
