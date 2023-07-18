@@ -8,6 +8,7 @@ import {
   ScreenHeaderBtn,
   Welcome,
 } from "../components";
+
 const Home = () => {
   const router = useRouter();
   return (

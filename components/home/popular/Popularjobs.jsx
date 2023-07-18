@@ -17,7 +17,7 @@ const Popularjobs = () => {
     query: "React developer",
     num_page: 1,
   });
-
+  console.log(data);
   return (
     <View style={styles.container}>
       <View style={styles.header}>
